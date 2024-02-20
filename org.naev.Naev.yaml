@@ -147,7 +147,7 @@ modules:
         sha512: 25f33cd78f83c9d6fe6ae3f6464e45a9086d7e2e033671b866d9e3d47a2cfff2d9e64dd453846de4e1fcf3384a57361bcf026a01eb39e9cf3b620be46b0d3f0b
         x-checker-data:
           type: json
-          url: https://api.github.com/repos/naev/naev/releases/latest
+          url: https://api.github.com/repos/naev/naev/releases/tags/nightly
           version-query: .tag_name
           url-query: .assets[] | select(.name|endswith("-source.tar.xz")) | .browser_download_url
       - type: patch
