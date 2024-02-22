@@ -143,8 +143,8 @@ modules:
       - -Ddocs_lua=disabled
     sources:
       - type: archive
-        url: https://github.com/naev/naev/releases/download/v0.11.3/naev-0.11.3-source.tar.xz
-        sha512: 25f33cd78f83c9d6fe6ae3f6464e45a9086d7e2e033671b866d9e3d47a2cfff2d9e64dd453846de4e1fcf3384a57361bcf026a01eb39e9cf3b620be46b0d3f0b
+        url: https://github.com/naev/naev/releases/download/nightly/naev-0.11.3%2B726.g209fbae06e-source.tar.xz
+        sha512: f657f3c806f8ad2750abfff3d38a4f6121e8c7fb2e8cd266dadf77ae9c2ba5c61d68a47678c207410e9dd7cef8040e3c91498b7f3e51be4e209049436352259a
         x-checker-data:
           type: json
           url: https://api.github.com/repos/naev/naev/releases/tags/nightly
